@@ -150,4 +150,11 @@ header h2{
     align-items: center;
 } 
 
+#informacoes_de_matricula h3{
+    font-size: 14px;
+    text-align: center;
+    padding-right: 9px;
+
+}
+
 }
