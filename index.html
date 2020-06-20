@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scale=0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Meu Primeiro Form</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>E.E.P.G. Brown Dog Digital</h1>
+                <h2>Formulário de Pré-Matrícula</h2>
+            <div class="lord_tobias">
+                <figure> 
+                    <img src="image/brown_dog.jpg" alt="Lord Tobias I">
+                    <figcaption>Lord Tobias I</figcaption>
+                </figure> 
+            </div>  
+                <img src="image/rococo-png-3.jpg">
+            </div>
+        </header>
+    
+        <section id="dados_pessoais">
+
+            <h3>Dados Pessoais:</h3>
+
+            <div class="dados_pessoais_container">
+                
+                <form action="login.html" method="POST">
+
+                    <label>Nome Completo:
+                        <input type="text" name="nome"/>
+                    </label>
+
+                    <label>Data de Nascimento:
+                        <input type="date" name="date">
+                    </label>
+
+                    <label>Nome da Mãe:
+                        <input type="text" name="nome da mae">
+                    </label>
+
+                    <label>Nome da Pai:
+                        <input type="text" name="nome da pai">
+                    </label>
+
+                    <label for="tel_res">Tel. Res:
+                        <input type="tel" id="tel_res" name="tel_res" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </label>
+
+                    <label>Celular:
+                        <input type="tel" name="tel_cel">
+                    </label>
+
+                </form>
+            </div>
+        </section>
+
+        <section id="informacoes_de_matricula">
+
+            <h3>Informações de Matrícula</h3>
+
+            <div class="informacoes_de_matricula_container">
+
+                <form action="login.html" method="POST">
+
+                    
+
+                    <div class="serie">
+                    <label>Série:<br>
+                        <select name="serie">
+                            <option value="valor1"></option>
+                            <option value="valor2">pré-escola</option>
+                            <option value="valor3">maternal 1</option>
+                            <option value="valor4">maternal 2</option>
+                            <option value="valor5">maternal 3</option>
+                            <option value="valor6">jardim 1</option>
+                            <option value="valor7">jardim 2</option>
+                            <option value="valor8">jardim 3</option>
+                        </select>
+                    </label>
+                    </div>
+
+                    <br/>
+
+                    <div class="turno">
+                    <label>Turno:<br/>
+                      <input type="radio" name="turno" value="manha">Manhã<br/>
+                      <input type="radio" name="turno" value="tarde">Tarde<br/>
+                    </label>
+                    </div>
+
+                    <br/>
+
+                    <div class="atividades">
+                    <label>Atividades e Cursos:<br/>
+                        <input type="checkbox" name="inf">Informática<br>
+                        <input type="checkbox" name="mus" >Música<br>
+                        <input type="checkbox" name="bal" >Balet<br>
+                        <input type="checkbox" name="pin" >Pintura<br>
+                        <input type="checkbox" name="jud" >Judô<br>
+                        <input type="checkbox" name="fut" >Futebol<br>
+                        <input type="checkbox" name="inf">Pescaria<br>
+                        <input type="checkbox" name="mus" >Kung Fu<br>
+                        <input type="checkbox" name="bal" >Tai Chi<br>
+                        <input type="checkbox" name="pin" >Krav Magá<br>
+                        <input type="checkbox" name="jud" >Escrima<br>
+                        <input type="checkbox" name="fut" >Natação<br>
+                    </div>
+
+                    </label>
+
+                    <br/>
+
+                    <label>
+                        <button>Enviar Formulário</button>
+                    </label>
+                    
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

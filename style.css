@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #f3f3f3;
+}
+
+body section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    width:auto;
+    height: 455px;
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width:110px;
+    padding: 5px;       
+}
+
+.lord_tobias img {
+    border-radius: 50px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;   
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width:auto;
+    height: 410px;
+    border-bottom: 2px solid gray;
+    line-height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#dados_pessoais{
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    border-color: gray;
+}
+
+#dados_pessoais h3 {
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.dados_pessoais_container input {
+    display: flex;
+    flex-direction:row; 
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.dados_pessoais_container{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#informacoes_de_matricula{
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+    border-style: double;
+    border-color: gray;
+    margin-bottom: 30px;
+}
+
+#informacoes_de_matricula h3 {
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.informacoes_de_matricula_container {
+    display:flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+button {
+    width: 100px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+@media(max-width:630px){
+
+
+
+header h1{
+    font-size: 10px;
+}
+
+header h2{
+    font-size:9px;
+}
+
+.container{
+    margin-bottom: 10px;
+}
+
+#dados_pessoais{
+    width:auto;
+    
+}
+
+#dados_pessoais h3 {
+    font-size: 14px;
+    text-align: center;
+    padding-right: 9px;
+
+}
+
+.dados_pessoais_container input{
+
+    width:80px;
+    height:auto;
+    align-items: center;
+} 
+
+}
